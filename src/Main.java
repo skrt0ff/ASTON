@@ -1,3 +1,7 @@
+import ru.astondevs.tasks.TaskArrays;
+import ru.astondevs.tasks.TaskNumbers;
+import ru.astondevs.tasks.TaskStrings;
+
 public class Main {
     public static void main(String[] args) {
         int[] replaceArray = new int[] {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};

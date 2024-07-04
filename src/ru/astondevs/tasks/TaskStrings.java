@@ -1,3 +1,5 @@
+package ru.astondevs.tasks;
+
 public class TaskStrings {
     /*1. Создайте метод printThreeWords(),
     который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.*/
