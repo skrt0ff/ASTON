@@ -1,4 +1,4 @@
-package ru.astondevs.tasks;
+package ru.astondevs.l5;
 
 public class TaskStrings {
     /*1. Создайте метод printThreeWords(),

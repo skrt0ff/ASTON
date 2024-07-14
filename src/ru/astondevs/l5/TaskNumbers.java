@@ -1,4 +1,4 @@
-package ru.astondevs.tasks;
+package ru.astondevs.l5;
 
 public class TaskNumbers {
     /*1. Создайте метод checkSumSign(), в теле которого объявите две int переменные a и b,
