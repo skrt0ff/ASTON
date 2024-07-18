@@ -1,6 +1,4 @@
-import ru.astondevs.l5.TaskArrays;
-import ru.astondevs.l5.TaskNumbers;
-import ru.astondevs.l5.TaskStrings;
+package ru.astondevs.l5;
 
 public class Main {
     public static void main(String[] args) {
