@@ -2,18 +2,19 @@ package ru.astondevs.l8.cats;
 
 public class Dog extends Animal{
     static int countDogs = 0;
-    private String name;
+
 
     public Dog(String name) {
+        super(name);
         countDogs++;
-        this.name = name;
     }
 
-
+    @Override
     public String getName() {
-        return name;
+        return super.getName();
     }
 
+    @Override
     public void Running(int lenght) {
         if (lenght < 0) {
             System.out.println("Что-то не так");
@@ -25,6 +26,8 @@ public class Dog extends Animal{
             System.out.println("Ошибка, " + getName() + " устал");
         }
     }
+
+    @Override
     public void Swimming(int lenght) {
         if (lenght < 0) {
             System.out.println("Что-то не так");

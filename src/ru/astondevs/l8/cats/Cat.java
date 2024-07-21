@@ -14,20 +14,20 @@ public class Cat extends Animal {
     static int countCats = 0;
     private boolean satiety; //поле сытость, голодны по умолчанию
     private int appetite;
-    private String name;
 
     public Cat(String name, int appetite) {
-        this.name = name;
+        super(name);
         this.appetite = appetite;
         this.satiety = false;
         countCats++;
     }
 
-
+    @Override
     public String getName() {
-        return name;
+        return super.getName();
     }
 
+    @Override
     public void Running(int lenght) {
         if (lenght < 0) {
             System.out.println("Что-то не так");
@@ -39,7 +39,9 @@ public class Cat extends Animal {
             System.out.println("Ошибка, Кот устал");
         }
     }
-    public void Swimming() {
+
+    @Override
+    public void Swimming(int length) {
         System.out.println("Кот не умеет плавать :(");
     }
 
