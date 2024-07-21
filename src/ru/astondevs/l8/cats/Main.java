@@ -27,9 +27,6 @@ public class Main {
         попросить всех котов покушать из этой миски и потом вывести информацию о сытости котов в консоль.
                 Добавить метод, с помощью которого можно было бы добавлять еду в миску.*/
 
-        Animal animal1 = new Animal("Жираф");
-        animal1.Running(10);
-
         Dog bobik = new Dog("Бобик");
         bobik.Running(500);
         bobik.Swimming(10);
@@ -47,7 +44,7 @@ public class Main {
         barsik.Running(201);
         barsik.Swimming();*/
 
-        System.out.println("Всего котов создано: " + Cat.getCountCats());
+        System.out.println("\nВсего котов создано: " + Cat.getCountCats());
         System.out.println("Всего собак создано: " + Dog.getCountDogs());
         System.out.println("Всего животных создано: " + Animal.getCountAnimals());
         System.out.println("\n");

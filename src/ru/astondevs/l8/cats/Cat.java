@@ -14,17 +14,18 @@ public class Cat extends Animal {
     static int countCats = 0;
     private boolean satiety; //поле сытость, голодны по умолчанию
     private int appetite;
+    private String name;
 
     public Cat(String name, int appetite) {
-        super(name);
+        this.name = name;
         this.appetite = appetite;
         this.satiety = false;
         countCats++;
     }
 
-    @Override
+
     public String getName() {
-        return super.getName();
+        return name;
     }
 
     public void Running(int lenght) {

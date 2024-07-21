@@ -1,6 +1,6 @@
 package ru.astondevs.l8.figures;
 
-public class Triangle implements Figure {
+public class Triangle implements Perimeter, Square {
     private String fillingColor;
     private String borderColor;
     private double a, b, c;

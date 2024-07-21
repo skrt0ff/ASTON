@@ -1,6 +1,6 @@
 package ru.astondevs.l8.figures;
 
-public class Circle implements Figure {
+public class Circle implements Perimeter, Square {
     private double radius;
     private String fillingColor;
     private String borderColor;

@@ -2,15 +2,16 @@ package ru.astondevs.l8.cats;
 
 public class Dog extends Animal{
     static int countDogs = 0;
+    private String name;
 
     public Dog(String name) {
-        super(name);
         countDogs++;
+        this.name = name;
     }
 
-    @Override
+
     public String getName() {
-        return super.getName();
+        return name;
     }
 
     public void Running(int lenght) {

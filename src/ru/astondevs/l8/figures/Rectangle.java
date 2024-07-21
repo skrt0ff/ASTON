@@ -1,6 +1,6 @@
 package ru.astondevs.l8.figures;
 
-public class Rectangle implements Figure {
+public class Rectangle implements Perimeter, Square {
     private double a;
     private double b;
     private String fillingColor;

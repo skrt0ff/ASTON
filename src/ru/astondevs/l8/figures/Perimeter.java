@@ -1,6 +1,5 @@
 package ru.astondevs.l8.figures;
 
-public interface Figure {
+public interface Perimeter {
     void perimeter();
-    void square();
 }
