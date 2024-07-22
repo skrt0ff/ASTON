@@ -13,25 +13,9 @@ public abstract class Animal {
         return name;
     }
 
-    public void Running(int length){
-        if (length < 0) {
-            System.out.println("Что-то не так");
-        } else if (length == 0) {
-            System.out.println(name + " стоит");
-        } else {
-            System.out.println(name + " пробежало " + length + " м");
-        }
-    }
+    public abstract void Running(int length);
 
-    public void Swimming(int length){
-        if (length < 0) {
-            System.out.println("Что-то не так");
-        } else if (length == 0) {
-            System.out.println(name + " стоит");
-        } else {
-            System.out.println(name + " проплыло" + length + " м");
-        }
-    }
+    public abstract void Swimming(int length);
 
     public static int getCountAnimals(){ //Получение количества животных
         return countAnimals;
